@@ -1,6 +1,6 @@
 <div style="padding-top: 20px" class="ui container ">
 
-  <h1 class="ui center aligned header" style="margin-top: 2em">Projets</h1>
+  <h1 class="ui center aligned header" style="margin-top: 2em">{{ site.projects-page-label }}</h1>
 
   <div class="ui stackable centered four cards">
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
