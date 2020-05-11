@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jean Laurent",
-    "label": "Student",
-    "picture": "https://jeanlrnt.github.io/images/jeanlaurent.png",
+    "label": "Etudiant",
+    "picture": "https://jeanlaurent.fr/images/jeanlaurent.png",
     "email": "jean.laurent@etu.unilim.fr",
     "phone": "+33(0)7.85.59.66.96",
-    "website": "https://jeanlrnt.github.io",
-    "summary": "I am currently studying in the first year of the Computer Science DUT (University Diploma in Computer Science) of the IUT (University Institute of Technology) du Limousin. I expect to graduate in Spring, 2021.",
+    "website": "https://jeanlaurent.fr",
+    "summary": "Je suis actuellement en première année du DUT Informatique de l'IUT du Limousin. Je compte obtenir mon diplôme en 2021.",
     "location": {
       "address": "",
       "postalCode": "87000",
@@ -44,39 +44,39 @@
   },
   "interests": [
     {
-      "name": "Software development",
+      "name": "Développement logiciel",
       "keywords": [
         "Java",
         "C/C++"
       ]
     },
     {
-      "name": "Web development",
+      "name": "Développement web",
       "keywords": [
         "HTML5",
         "CSS3"
       ]
     },
     {
-      "name": "Network administration",
+      "name": "Administration des Réseaux",
       "keywords": [
         "Bash"
       ]
     },
     {
-      "name": "Environmental respect",
+      "name": "Respect de l'environement",
       "keywords": []
     },
     {
-      "name": "Scuba diving",
+      "name": "Plongée sous-marine",
       "keywords": [
-        "dive master"
+        "Instructeur de plongée"
       ]
     }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Langages et Frameworks",
       "keywordslabel": [
         "Bash",
         "HTML5",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "name": "Others",
+      "name": "Autres",
       "keywordslabel": [
         "French",
         "Scuba-diving",
@@ -134,7 +134,7 @@
   "education": [
     {
       "institution": "IUT du Limousin, 87000 Limoges, France",
-      "area": "Computer Science Department (expected Spring, 2021)",
+      "area": "Département Informatique",
       "studyType": "DUT",
       "startDate": "2019-09-01",
       "endDate": "Present",
@@ -142,9 +142,9 @@
       "courses": []
     },
     {
-      "institution": "Faculty of Medicine and Pharmacy, 87000 Limoges, France",
+      "institution": "Faculté de médecine et de pharmacie, 87000 Limoges, France",
       "area": "PACES",
-      "studyType": "First year common to health studies",
+      "studyType": "Première année commune aux études de santé",
       "startDate": "2017-09-01",
       "endDate": "2019-01-31",
       "gpa": "",
@@ -152,8 +152,8 @@
     },
     {
       "institution": "Lycée Eugene Jamot, 23200 Aubusson, France",
-      "area": "Scientifical courses",
-      "studyType": "Scientifical \"baccalauréat\"",
+      "area": "Cursus Scientifique",
+      "studyType": "Baccalauréat Scientifique",
       "startDate": "2014-09-01",
       "endDate": "2017-06-30",
       "gpa": "",
@@ -163,27 +163,27 @@
   "work": [
     {
       "company": "Supermarché Casino",
-      "position": "Commercial employee",
+      "position": "Employé Commercial",
       "website": "",
       "startDate": "2019-02-02",
       "endDate": "Present",
-      "summary": "Discovery of the professional world in mass retailing.",
+      "summary": "Découverte du monde professionnel dans la grande distribution.",
       "highlights": [
-        "Shelving, management of outdated items, reception of orders, customer contact.",
-        "Management of a cash register, very good contacts with young and old customers."
+        "Rayonnage, gestion des articles périmés, réception des commandes, contact avec les clients.",
+        "Gestion d'une caisse enregistreuse, très bons contacts avec les jeunes et les vieux clients."
       ]
     },
     {
       "company": "Centre Hospitalier d'Aubusson",
-      "position": "Pharmacy dispenser",
+      "position": "Préparateur en pharmacie",
       "website": "",
       "startDate": "2019-02-01",
       "endDate": "2019-08-31",
-      "summary": "Discovery of the professionnal world in the medical field.",
+      "summary": "Découverte du monde professionnel dans le domaine médical.",
       "highlights": [
-        "Shelving, management of outdated items, reception of orders.",
-        "Creation of pill dispensers, distribution of medical material in the services of the establishment.",
-        "Creation of Microsoft Office suite documents to improve pharmacy management. Among other things, automatic management for the creation of labels."
+        "Rayonnage, gestion des objets périmés, réception des commandes.",
+        "Création de piluliers, distribution de matériel médical dans les services de l'établissement.",
+        "Création de documents de la suite Microsoft Office pour améliorer la gestion des pharmacies. Entre autres, gestion automatique pour la création d'étiquettes."
       ]
     }
   ],
@@ -191,18 +191,18 @@
     {
       "organization": "Club Subaquatique du Limousin (CSL)",
       "website": "",
-      "position": "Dive Master",
+      "position": "Instructeur de plongée",
       "startDate": "2020-01-01",
       "endDate": "Present",
-      "summary": "Teaching my passion for diving",
+      "summary": "Enseigner ma passion pour la plongée",
       "highlights": [
-        "Creation of structured courses, management of students, seniors, etc."
+        "Création de cours structurés, gestion des étudiants, des seniors, etc."
       ]
     }
   ],
   "references": [
     {
-      "name": "Available upon request",
+      "name": "Disponible sur demande",
       "reference": ""
     }
   ]
