@@ -103,7 +103,7 @@
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Outils/OS",
       "keywordslabel": [
         "Microsoft Office",
         "Linux Manjaro",
@@ -118,10 +118,10 @@
     {
       "name": "Autres",
       "keywordslabel": [
-        "French",
-        "Scuba-diving",
-        "English",
-        "Spanish"
+        "Français",
+        "Plongée",
+        "Anglais",
+        "Espagnol"
       ],
       "keywordslevel": [
         "100",
@@ -170,7 +170,7 @@
       "summary": "Découverte du monde professionnel dans la grande distribution.",
       "highlights": [
         "Rayonnage, gestion des articles périmés, réception des commandes, contact avec les clients.",
-        "Gestion d'une caisse enregistreuse, très bons contacts avec les jeunes et les vieux clients."
+        "Gestion d'une caisse enregistreuse, très bons contacts avec les clients de tout âge."
       ]
     },
     {
