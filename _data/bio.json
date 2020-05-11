@@ -2,10 +2,10 @@
   "basics": {
     "name": "Jean Laurent",
     "label": "Etudiant",
-    "picture": "https://github.com/jeanlrnt/Portfolio_FR/images/jeanlaurent.png",
+    "picture": "https://jeanlrnt.github.io/Portfolio_FR/images/jeanlaurent.png",
     "email": "jean.laurent@etu.unilim.fr",
     "phone": "+33(0)7.85.59.66.96",
-    "website": "https://jeanlaurent.fr",
+    "website": "https://jeanlrnt.github.io/Portfolio_FR",
     "summary": "Je suis actuellement en première année du DUT Informatique de l'IUT du Limousin. Je compte obtenir mon diplôme en 2021.",
     "location": {
       "address": "",
