@@ -1,0 +1,39 @@
+{% if site.data.bio.skills %}
+<div class="row">
+  <div class="two wide column">
+    <h3 class="ui left aligned header no-bottom">Skills</h3>
+  </div>
+
+  <div class="fourteen wide column no-bottom">
+    <p class="ui no-bottom">
+      {% for entry in site.data.bio.skills %}
+      <p class="ui no-bottom">
+        <b>{{ entry.name }}:</b> <br>
+        <div class="ui grid">
+          <div class="five wide column" style="margin-left: 1em;min-width: 10em;">
+            <table>
+              {% for keyword in entry.keywordslabel %}
+              <tr style="height: 2em;">
+                <td>{{ keyword }}</td>
+              </tr>
+              {% endfor %}
+            </table>
+          </div>
+          <div class="five wide column">
+            <table>
+              {% for level in entry.keywordslevel %}
+              <tr style="height: 2em;">
+                <td>
+                  <div class="ui blue progress no-bottom" style="width: 10em">
+                    <div class="bar" style="transition-duration: 300ms;height: 1em; width: {{ level }}%;"></div>
+                  </div>
+                </td>
+              </tr>
+              {% endfor %}
+            </table>
+          </div>
+        </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

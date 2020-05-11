@@ -1,0 +1,47 @@
+{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
+{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
+{% assign num_essays = essay_pages.size %}
+{% assign num_projects = project_pages.size %}
+
+<div style="height: 100%;" class="ui middle aligned two column centered stackable grid container">
+
+  <div style="text-align: center" class="column">
+    <div  class="ui middle aligned medium circular image">
+      <img style="max-width: 300px" src="{{ site.data.bio.basics.picture }}" alt="avatar jean laurent">
+    </div>
+  </div>
+
+  <div class="column">
+    <h1 class="header no-bottom">{{ site.data.bio.basics.name }}</h1>
+    <p class="">{{ site.data.bio.basics.label }}</p>
+    <p class="">
+      {{ site.data.bio.basics.summary }}
+    </p>
+    <p>Interests:
+      {% for interest in site.data.bio.interests %}
+        {{ interest.name }}{% if forloop.last != true %}, {% endif %}
+      {% endfor %}
+    </p>
+    <p style="text-align: center">
+      {% for profile in site.data.bio.basics.profiles %}
+         <a href="{{ profile.url }}"> <i class="big {{ profile.network | downcase }} icon icon-color"></i> </a>
+      {% endfor %}
+
+      {% if site.data.bio.basics.email %}
+        <a href="mailto:{{ site.data.bio.basics.email }}"> <i class="big mail square icon icon-color"></i> </a>
+      {% endif %}
+    </p>
+    <p style="text-align: center">
+      {% if num_projects > 0 %}<a href="{{ site.baseurl}}/projects/">
+        <button class="ui basic button">Projects ({{ num_projects }})</button>
+      </a>{% endif %}
+      {% if num_essays > 0 %}<a href="{{ site.baseurl}}/essays/">
+        <button class="ui basic button">Essays ({{ num_essays }})</button>
+      </a>{% endif %}
+      <a href="{{ site.baseurl}}/bio/">
+        <button class="ui basic button">{{ site.bio-page-label }}</button>
+      </a>
+    </p>
+  </div>
+  {% include footer.html %}
+</div>

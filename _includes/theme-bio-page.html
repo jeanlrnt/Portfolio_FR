@@ -1,0 +1,38 @@
+<div style="margin-top: 10px; " class="ui stackable grid container">
+
+  <div class="sixteen wide column no-bottom">
+    <h1 class="ui center aligned header no-bottom" style="margin-top: 2em">{{ site.data.bio.basics.name }}</h1>
+  </div>
+
+  <div class="eight wide left aligned column">
+    {% if site.data.bio.basics.website %}
+      <p class="ui no-bottom"><a href="{{ site.data.bio.basics.website }}"> <i class="large home icon "></i>{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}</a></p>
+    {% endif %}
+
+    {% if site.data.bio.basics.email %}
+    <p class="ui no-bottom"><a href="mailto:{{ site.data.bio.basics.email }}"> <i class="large mail outline icon "></i>{{ site.data.bio.basics.email }}</a></p>
+    {% endif %}
+
+    {% for entry in site.data.bio.basics.profiles %}
+         <p class="ui no-bottom"><a href="{{ entry.url }}"> <i class="large {{ entry.network | downcase }} icon "></i>{{ entry.username }}</a></p>
+    {% endfor %}
+  </div>
+
+  <div class="eight wide right aligned column">
+    <p class="ui no-bottom">{{ site.data.bio.basics.location.address }}</p>
+    <p class="ui no-bottom">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} {{ site.data.bio.basics.location.countryCode }}</p>
+    <p class="ui no-bottom">{{ site.data.bio.basics.phone }}</p>
+  </div>
+</div>
+
+<div style="margin-bottom: 20px" class="ui stackable grid container">
+  {% include bio-interets.html %}
+  {% include bio-competances.html %}
+  {% include bio-scolarite.html %}
+  {% include bio-travail.html %}
+  {% include bio-benevolat.html %}
+  {% include bio-publications.html %}
+  {% include bio-recompenses.html %}
+  {% include bio-references.html %}
+</div>
+{% include footer.html %}

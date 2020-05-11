@@ -1,0 +1,14 @@
+# Site settings
+
+title: Jean Laurent | Portfolio
+url: "https://jeanlrnt.github.io"
+icon: "images/jeanlaurent.png"
+baseurl: ""
+bio-page-label: Resume
+theme-home: theme-home-page.html
+theme-projects: theme-projects-page.html
+theme-essays: theme-essays-page.html
+theme-bio: theme-bio-page.html
+
+markdown: kramdown
+include: [_data]

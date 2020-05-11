@@ -1,0 +1,26 @@
+---
+# Provide front matter so Jekyll processes this file as SASS.
+---
+@charset "utf-8";
+
+body {
+  background-color: #e3efff;
+}
+
+.ui.menu {
+  background: #d1d9e3;
+}
+
+.icon-color, a {
+  color: #0a6fd1;
+}
+
+.list-padding {
+  ul li { padding: 5px 0px; }
+  ol li { padding: 5px 0px; }
+}
+
+.no-bottom {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}

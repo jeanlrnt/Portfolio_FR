@@ -1,0 +1,209 @@
+{
+  "basics": {
+    "name": "Jean Laurent",
+    "label": "Student",
+    "picture": "https://jeanlrnt.github.io/images/jeanlaurent.png",
+    "email": "jean.laurent@etu.unilim.fr",
+    "phone": "+33(0)7.85.59.66.96",
+    "website": "https://jeanlrnt.github.io",
+    "summary": "I am currently studying in the first year of the Computer Science DUT (University Diploma in Computer Science) of the IUT (University Institute of Technology) du Limousin. I expect to graduate in Spring, 2021.",
+    "location": {
+      "address": "",
+      "postalCode": "87000",
+      "city": "Limoges",
+      "countryCode": "FR",
+      "region": "France"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "jeanlrnt",
+        "url": "https://github.com/jeanlrnt"
+      },
+      {
+        "network": "linkedin",
+        "username": "jeanlrnt",
+        "url": "https://linkedin.com/in/jeanlrnt"
+      },
+      {
+        "network": "twitter",
+        "username": "jean_lrnt",
+        "url": "https://twitter.com/jean_lrnt"
+      },
+      {
+        "network": "instagram",
+        "username": "jeaan_lrnt",
+        "url": "https://instagram.com/jeaan_lrnt"
+      },
+      {
+        "network": "facebook",
+        "username": "Jean Laurent",
+        "url": "https://facebook.com/jean.laurent.9212"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Software development",
+      "keywords": [
+        "Java",
+        "C/C++"
+      ]
+    },
+    {
+      "name": "Web development",
+      "keywords": [
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "name": "Network administration",
+      "keywords": [
+        "Bash"
+      ]
+    },
+    {
+      "name": "Environmental respect",
+      "keywords": []
+    },
+    {
+      "name": "Scuba diving",
+      "keywords": [
+        "dive master"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywordslabel": [
+        "Bash",
+        "HTML5",
+        "CSS3",
+        "Java",
+        "C++",
+        "Git",
+        "JavaFX",
+        "C",
+        "SQL",
+        "Rust"
+      ],
+      "keywordslevel": [
+        "80",
+        "75",
+        "70",
+        "70",
+        "70",
+        "70",
+        "60",
+        "60",
+        "55",
+        "40"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywordslabel": [
+        "Microsoft Office",
+        "Linux Manjaro",
+        "Git/GitHub"
+      ],
+      "keywordslevel": [
+        "85",
+        "75",
+        "70"
+      ]
+    },
+    {
+      "name": "Others",
+      "keywordslabel": [
+        "French",
+        "Scuba-diving",
+        "English",
+        "Spanish"
+      ],
+      "keywordslevel": [
+        "100",
+        "85",
+        "80",
+        "65"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "IUT du Limousin, 87000 Limoges, France",
+      "area": "Computer Science Department (expected Spring, 2021)",
+      "studyType": "DUT",
+      "startDate": "2019-09-01",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Faculty of Medicine and Pharmacy, 87000 Limoges, France",
+      "area": "PACES",
+      "studyType": "First year common to health studies",
+      "startDate": "2017-09-01",
+      "endDate": "2019-01-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Eugene Jamot, 23200 Aubusson, France",
+      "area": "Scientifical courses",
+      "studyType": "Scientifical \"baccalauréat\"",
+      "startDate": "2014-09-01",
+      "endDate": "2017-06-30",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "work": [
+    {
+      "company": "Supermarché Casino",
+      "position": "Commercial employee",
+      "website": "",
+      "startDate": "2019-02-02",
+      "endDate": "Present",
+      "summary": "Discovery of the professional world in mass retailing.",
+      "highlights": [
+        "Shelving, management of outdated items, reception of orders, customer contact.",
+        "Management of a cash register, very good contacts with young and old customers."
+      ]
+    },
+    {
+      "company": "Centre Hospitalier d'Aubusson",
+      "position": "Pharmacy dispenser",
+      "website": "",
+      "startDate": "2019-02-01",
+      "endDate": "2019-08-31",
+      "summary": "Discovery of the professionnal world in the medical field.",
+      "highlights": [
+        "Shelving, management of outdated items, reception of orders.",
+        "Creation of pill dispensers, distribution of medical material in the services of the establishment.",
+        "Creation of Microsoft Office suite documents to improve pharmacy management. Among other things, automatic management for the creation of labels."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Club Subaquatique du Limousin (CSL)",
+      "website": "",
+      "position": "Dive Master",
+      "startDate": "2020-01-01",
+      "endDate": "Present",
+      "summary": "Teaching my passion for diving",
+      "highlights": [
+        "Creation of structured courses, management of students, seniors, etc."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}
