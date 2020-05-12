@@ -9,28 +9,28 @@ images:
   - ../images/bibliotheque/sauvegarde.png
   - ../images/bibliotheque/langue.png
   - ../images/bibliotheque/erreur.png
-title: Library
+title: Bibliothèque
 date: 2019-11-10
 labels:
   - C/C++
-  - Algorithm
-summary: Project carried out for the algorithm module of my Computer Science DUT.
+  - Algorithmes
+summary: Projet réalisé pour le module algorithmique de mon DUT Informatique.
 ---
 
-# Summary
+# Résumé
 
-This project consists in creating a C/C++ program to manage a library.
+Ce projet consiste à créer un programme C/C++ pour gérer une bibliothèque.
 
-This project on will have no interface other than the console.
-It is therefore essential to be able to navigate between
-the different "modules" using menus and sub-menus. This segmentation is arbitrary.
+Ce projet n'aura pas d'autre interface que la console.
+Il est donc essentiel de pouvoir naviguer entre les différents "modules" utilisant des menus et sous-menus. Cette segmentation est arbitraire.
 
-The following are set up:
+Les éléments suivants sont mis en place :
 
-- A differentiated management of books and authors.
-- A backup system.
-- A reset system.
-- The complete language change (English/French).
-- A classification of the errors recorded on a separate file.
+- Une gestion différenciée des livres et des auteurs.
+- Un système de sauvegarde.
+- Un système de réinitialisation.
+- Le changement complet de langue (anglais/français).
+- Une classification des erreurs enregistrées dans un fichier séparé.
 
-You can learn more about at my [GitHub repository](http://GitHub.com/jeanlrnt/Bibliotheque).
+
+Vous pouvez en apprendre plus sur mon [dépôt GitHub](http://GitHub.com/jeanlrnt/Bibliotheque).

@@ -12,21 +12,13 @@ labels:
   - Java
   - OOP
   - Pokemon
-summary: Project carried out for the object-oriented programming module of my Computer Science DUT.
+summary: Projet réalisé pour le module de programmation orienté objet de mon DUT Informatique.
 ---
 
-# Summary
+# Résumé
 
-Project carried out to put into practice the basics of
-object-oriented programming in java. This project is
-"non-graphical". Indeed, it was central in this project
-to put into practice the knowledge of object-oriented development
-rather than graphical skills.
+Projet réalisé pour mettre en pratique les bases de la programmation orientée objet en java. Ce projet est "non graphique". En effet, il était central dans ce projet de mettre en pratique les connaissances du développement orienté vers l'objet plutôt que des compétences graphiques.
 
-It is therefore possible for the player to interact with his
-environment (capturing, releasing Pokemon, interacting with them,
-but also collecting food and giving it to the Pokemon), but also
-to make the Pokemon interact with each other by making them fight
-against each other.
+Il est donc possible pour le joueur d'interagir avec son environnement (capture, libération de Pokemon, interaction avec eux, mais aussi la collecte de nourriture et sa distribution aux Pokémon), de plus, il est possible de faire interagir les Pokémon entre eux en les faisant se battre les uns contre les autres.
 
-You can learn more about at my [GitHub repository](http://GitHub.com/jeanlrnt/Pokemon).
+Vous pouvez en apprendre plus sur mon [dépôt GitHub](http://GitHub.com/jeanlrnt/Pokemon).

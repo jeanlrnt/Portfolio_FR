@@ -11,23 +11,15 @@ labels:
   - Java
   - OOD
   - TDD
-summary: Project carried out for the object-oriented design module of my Computer Science DUT.
+summary: Projet réalisé pour le module de conception orientée objet de mon DUT Informatique.
 ---
 
-# Summary
+# Résumé
 
-Project carried out during the object-oriented design module. Based on
-the idea of Isabelle Blasquez, professor at the IUT of Limousin. This
-game has been made thanks to a test-driven development approach.
+Projet réalisé dans le cadre du module de conception orientée objet. Basé sur l'idée d'Isabelle Blasquez, professeur à l'IUT du Limousin. Ce jeu a été réalisé grâce à une approche de développement basée sur des tests (Tests Driven Development).
 
-SpaceInvaders is a game in which the player controls a spaceship with a
-cannon in the game space. He can only go from right to left at the bottom
-of the screen. In front of him, at the top of the game space, enemies are
-shooting at him. These enemies move from right to left and move down a notch
-at the end of each round trip. If the player kills all the enemies, a new
-wave appears.
+SpaceInvaders est un jeu dans lequel le joueur contrôle, dans l'espace de jeu, un vaisseau spatial avec un canon. Il ne peut aller que de droite à gauche en bas de l'écran. Devant lui, en haut de l'espace de jeu, des ennemis lui tirent dessus. Ces ennemis se déplacent de droite à gauche et descendent d'un cran à la fin de chaque aller-retour. Si le joueur tue tous les ennemis, une nouvelle vague apparaît.
 
-The goal of the game is to survive as many enemy waves as possible. In
-this game, winning is impossible, so you have to lose as late as possible.
+Le but du jeu est de survivre au plus grand nombre possible de vagues ennemies. Dans ce jeu, il est impossible de gagner, il faut donc perdre le plus tard possible.
 
-You can learn more about at my [GitHub repository](http://GitHub.com/jeanlrnt/SpaceInvaders).
+Vous pouvez en apprendre plus sur mon [dépôt GitHub](http://GitHub.com/jeanlrnt/SpaceInvaders).
