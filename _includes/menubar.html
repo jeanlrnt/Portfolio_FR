@@ -4,7 +4,7 @@
 {% assign num_projects = project_pages.size %}
 
 <div class="nonprintable">
-  <nav class="ui stackable menu fixed">
+  <div class="ui stackable menu fixed">
     <div class="item">
       <div class="ui avatar image">
         <img src="{{ site.data.bio.basics.picture }}" alt="avatar jean laurent">
@@ -18,5 +18,9 @@
     <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item">{{ site.essays-page-label }} ({{ num_essays }})</a>
     {% endif %}
     <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">{{ site.bio-page-label }}</a>
-  </nav>
+    {% assign page_name = include.active %}
+    <div class="right menu">
+      <a href="https://jeanlaurent.me/{{ page_name }}" class="item"><i class="flag gb"></i>Anglais</a>
+    </div>
+  </div>
 </div>
