@@ -1,0 +1,49 @@
+<div class="row">
+  <div class="two wide column">
+    <h3 class="ui left aligned header no-bottom">Contact</h3>
+  </div>
+
+  <div class="fourteen wide column no-bottom">
+    <div class="ui form">
+      <div class="two fields">
+        <div class="field">
+          <label>Nom</label>
+          <input placeholder="Votre Nom" type="text" id="edName">
+        </div>
+        <div class="field">
+          <label>Sujet</label>
+          <input placeholder="Sujet du Message" type="text" id="edSubject">
+        </div>
+      </div>
+      <div class="field">
+        <label>Text</label>
+        <textarea id="edBody"></textarea>
+      </div>
+      <div class="ui submit button" onclick="sendMail()">Valider</div>
+    </div>
+  </div>
+</div>
+
+<script>
+    function sendMail() {
+        <!--Tester les donnees-->
+        if (document.getElementById("edName").value.length==0) {
+            alert("Please enter your Name");
+            return;
+        }
+        if (document.getElementById("edSubject").value.length==0) {
+            alert("Please enter a Subject");
+            return;
+        }
+        if (document.getElementById("edBody").value.length==0) {
+            alert("Please enter a Content");
+            return;
+        }
+        <!--Encoder l'url mailto-->
+        var url="mailto:"+encodeURIComponent("{{ site.data.bio.basics.email }}")
+            +"?subject="+encodeURIComponent(document.getElementById("edSubject").value + " || envoyé par " + document.getElementById("edName").value)
+            +"&body="+encodeURIComponent(document.getElementById("edBody").value);
+        <!--Ouvrir client messagerie-->
+        document.location=url;
+    }
+</script>
