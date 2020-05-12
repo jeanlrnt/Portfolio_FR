@@ -10,16 +10,16 @@ layout: Accueil
 {% include menubar.html active="" %}
 
 <div style="padding-top: 20px" class="ui container ">
-  <p>I'm sorry, that URL could not be found. Perhaps you were looking for one of the following:</p>
+  <p>Je suis désolé, cette URL n'a pas pu être trouvée. Peut-être cherchiez-vous l'un des éléments suivants :</p>
 
-  {% if num_essays > 0 %}<h3>Essays</h3>{% endif %}
+  {% if num_essays > 0 %}<h3>{{ page.essays }}</h3>{% endif %}
   <ul>
     {% for page in essay_pages %}
       <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
 
-  {% if num_projects > 0 %}<h3>Projects</h3>{% endif %}
+  {% if num_projects > 0 %}<h3>{{ page.projects }}</h3>{% endif %}
   <ul>
     {% for page in project_pages %}
     <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
