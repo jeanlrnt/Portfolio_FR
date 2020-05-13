@@ -10,30 +10,24 @@
       <p class="ui no-bottom">
         <b>{{ entry.name }}:</b> <br>
         <div class="ui grid">
-          <div class="five wide column" style="margin-left: 1em;min-width: 10em;">
-            <table>
-              {% for keyword in entry.keywordslabel %}
-              <tr style="height: 2em;">
-                <td>{{ keyword }}</td>
-              </tr>
-              {% endfor %}
-            </table>
+          <div class="one wide column" style="margin: 1em; min-width: 10em;">
+            {% for keyword in entry.keywordslabel %}
+            <div class="row" style="height: 2em">
+              {{ keyword }}
+            </div>
+            {% endfor %}
           </div>
-          <div class="five wide column">
-            <table>
-              {% for level in entry.keywordslevel %}
-              <tr style="height: 2em;">
-                <td>
-                  <div class="ui blue progress no-bottom" style="width: 10em">
-                    <div class="bar" style="transition-duration: 300ms;height: 1em; width: {{ level }}%;"></div>
-                  </div>
-                </td>
-              </tr>
-              {% endfor %}
-            </table>
+          <div class="four wide column" style="margin: 1em; min-width: 15em;">
+            {% for level in entry.keywordslevel %}
+            <div class="row" style="height: 2em">
+              <div class="ui blue progress no-bottom" style="width: 10em">
+                <div class="bar" style="transition-duration: 300ms;height: 1em; width: {{ level }}%"></div>
+              </div>
+            </div>
+            {% endfor %}
           </div>
         </div>
-    {% endfor %}
+      {% endfor %}
   </div>
 </div>
 {% endif %}
