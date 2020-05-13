@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+link: /Pokemon
 image: ../images/pokemon/piplup.png
 images:
   - ../images/pokemon/piplup.png

@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+link: /SpaceInvaders
 image: ../images/spaceinvaders/game.png
 images:
   - ../images/spaceinvaders/game.png
