@@ -1,25 +1,29 @@
 <div class="row">
   <div class="two wide column">
-    <h3 class="ui left aligned header no-bottom">Contact</h3>
+    <div class="nonprintable">
+      <h3 class="ui left aligned header no-bottom">Contact</h3>
+    </div>
   </div>
 
   <div class="twelve wide column no-bottom">
     <div class="ui form">
-      <div class="fields">
-        <div class="six wide field">
-          <label>Nom</label>
-          <input placeholder="Votre Nom" type="text" id="edName">
+      <div class="nonprintable">
+        <div class="fields">
+          <div class="six wide field">
+            <label>Nom</label>
+            <input placeholder="Votre Nom" type="text" id="edName">
+          </div>
+          <div class="ten wide field">
+            <label>Sujet</label>
+            <input placeholder="Sujet du Message" type="text" id="edSubject">
+          </div>
         </div>
-        <div class="ten wide field">
-          <label>Sujet</label>
-          <input placeholder="Sujet du Message" type="text" id="edSubject">
+        <div class="field">
+          <label>Text</label>
+          <textarea id="edBody"></textarea>
         </div>
+        <div class="ui submit button" onclick="sendMail()">Valider</div>
       </div>
-      <div class="field">
-        <label>Text</label>
-        <textarea id="edBody"></textarea>
-      </div>
-      <div class="ui submit button" onclick="sendMail()">Valider</div>
     </div>
   </div>
 </div>

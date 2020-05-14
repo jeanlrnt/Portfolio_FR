@@ -6,7 +6,12 @@
 
   <div class="fourteen wide column no-bottom">
     <p class="ui no-bottom">
-      {% for entry in site.data.bio.skills %}
+    {% for entry in site.data.bio.skills %}
+    <div class="printable">
+      <b>{{ entry.name }}: </b>
+      {% if entry.keywordslabel and entry.keywordslabel.size > 0 %}{% for keyword in entry.keywordslabel %}{{ keyword }}{% if forloop.last != true %}, {% endif %}{% endfor %}{% endif %}{% if forloop.last != true %} {% endif %}
+    </div>
+    <div class="nonprintable">
       <p class="ui no-bottom">
         <b>{{ entry.name }}:</b> <br>
         <div class="ui grid">
@@ -27,7 +32,8 @@
             {% endfor %}
           </div>
         </div>
-      {% endfor %}
+    </div>
+    {% endfor %}
   </div>
 </div>
 {% endif %}

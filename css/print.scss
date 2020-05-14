@@ -4,11 +4,15 @@
 
 @charset "utf-8";
 
-.nonprintable {
-  display: none;
-}
-
 @media print {
+
+  .nonprintable {
+    display: none;
+  }
+
+  .printable {
+    display: inherit;
+  }
 
   p, a, li {
     font-size: 12px;
@@ -25,5 +29,10 @@
   ul li {
     padding: 0px;
     margin: 0px;
+  }
+
+  .withmenu {
+    margin-top: 0em;
+    border: 2px solid white;
   }
 }
