@@ -5,6 +5,7 @@
 
 body {
   background-color: #e3efff;
+  height: auto;
 }
 
 .ui.menu {
@@ -42,4 +43,11 @@ body {
   .withmenu {
     margin-top: 16em;
   }
+}
+
+canvas {
+  background: #eee;
+  display: block;
+  margin: 0 auto;
+  border: solid #0A6FD1; 
 }
