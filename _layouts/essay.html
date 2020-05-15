@@ -2,8 +2,19 @@
 layout: Publications
 ---
 
+<style media="screen">
+  body {
+    height: auto;
+  }
+</style>
+
 <div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
   <h1>{{ page.title }}</h1>
+  <div class="ui small rounded images row">
+  {% for image in page.images %}
+     <img class="ui image" src="{{ image }}" alt="{{ image }}">
+  {% endfor %}
+  </div>
   <span class="date">{{ page.date | date_to_string }}</span>
   <hr>
   {{ content }}

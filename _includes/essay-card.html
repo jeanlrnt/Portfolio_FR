@@ -1,4 +1,9 @@
 <a class="card" href="{{ site.baseurl}}{{ include.page.url }}">
+  {% if include.page.image %}
+  <div class="image">
+    <img src="{{ site.baseurl }}/{{ include.page.image }}" alt="{{ include.page.image }}">
+  </div>
+  {% endif %}
   <div class="content">
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">
