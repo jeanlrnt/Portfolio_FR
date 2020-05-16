@@ -17,12 +17,14 @@ summary: Projet réalisé pour le expérimenter le JavaScript.
 Ce jeu a été réalisé dans le cadre personnel afin d'apprendre à utiliser le langage JavaScript.  
 Il a été réalisé grâce au tutoriel disponible [ici](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript)
 
-<canvas id="myCanvas" width="480" height="320"></canvas>
+<div class="invmobile">
+  <canvas id="myCanvas" width="480" height="320"></canvas>
 
-<div class="ui grid">
-  <div style="margin: 0 auto; margin-top: 1em; margin-bottom: 1em">
-    <div class="ui button" onclick="draw()" style="margin-top: 1em">Jouer</div>
+  <div class="ui grid">
+    <div style="margin: 0 auto; margin-top: 1em; margin-bottom: 1em">
+      <div class="ui button" onclick="draw()" style="margin-top: 1em">Play</div>
+    </div>
   </div>
-</div>
 
-<script type="text/javascript" src="{{ site.url }}/js/casse-brique.js"></script>
+  <script type="text/javascript" src="{{ site.url }}/js/casse-brique.js"></script>
+</div>

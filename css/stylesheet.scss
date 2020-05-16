@@ -40,3 +40,9 @@ canvas {
   margin: 0 auto;
   border: solid #0A6FD1;
 }
+
+@media only screen and (max-width:767px) {
+  .invmobile {
+    display: none;
+  }
+}
