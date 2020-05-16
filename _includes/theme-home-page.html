@@ -31,20 +31,18 @@
         <a href="mailto:{{ site.data.bio.basics.email }}"> <i class="big mail square icon icon-color"></i> </a>
       {% endif %}
     </p>
-    <p style="text-align: center">
-      {% if num_projects > 0 %}<a href="{{ site.baseurl}}/projects/">
-        <button class="ui basic button">{{ site.projects-page-label }} ({{ num_projects }})</button>
-      </a>{% endif %}
-      {% if num_essays > 0 %}<a href="{{ site.baseurl}}/essays/">
-        <button class="ui basic button">{{ site.essays-page-label }} ({{ num_essays }})</button>
-      </a>{% endif %}
-      <a href="{{ site.baseurl}}/bio/">
-        <button class="ui basic button">{{ site.bio-page-label }}</button>
-      </a>
-      <a href="https://jeanlrnt.github.io/{{ page_name }}" class="item">
-        <button class="ui basic button"><i class="flag gb"></i>Anglais</button>
-      </a>
-    </p>
+    <div class="centered">
+      <div class="ui stackable four item menu">
+        {% if num_projects > 0 %}<a href="{{ site.baseurl}}/projects/" class="item">
+          {{ site.projects-page-label }} ({{ num_projects }})
+        </a>{% endif %}
+        {% if num_essays > 0 %}<a href="{{ site.baseurl}}/essays/" class="item">
+          {{ site.essays-page-label }} ({{ num_essays }})
+        </a>{% endif %}
+        <a class="item" href="{{ site.baseurl}}/bio/">{{ site.bio-page-label }}</a>
+        <a class="item" href="https://jeanlrnt.github.io/{{ page_name }}"><i class="flag gb"></i>Anglais</a>
+      </div>
+    </div>
   </div>
   {% include footer.html %}
 </div>

@@ -12,25 +12,19 @@
       {% if entry.keywordslabel and entry.keywordslabel.size > 0 %}{% for keyword in entry.keywordslabel %}{{ keyword }}{% if forloop.last != true %}, {% endif %}{% endfor %}{% endif %}{% if forloop.last != true %} {% endif %}
     </div>
     <div class="nonprintable">
-      <p class="ui no-bottom">
+      <p class="ui row no-bottom">
         <b>{{ entry.name }}:</b> <br>
-        <div class="ui grid">
-          <div class="one wide column" style="margin: 1em; min-width: 10em;">
-            {% for keyword in entry.keywordslabel %}
-            <div class="row" style="height: 2em">
-              {{ keyword }}
-            </div>
-            {% endfor %}
+        <div class="ui grid stackable" style="padding: 1em">
+          {% for keyword in entry.keywordslabel %}
+          <div class="three wide column" style="min-width: 11em">
+            {{ entry.keywordslabel[forloop.index0] }} :
           </div>
-          <div class="four wide column" style="margin: 1em; min-width: 15em;">
-            {% for level in entry.keywordslevel %}
-            <div class="row" style="height: 2em">
-              <div class="ui blue progress no-bottom" style="width: 10em">
-                <div class="bar" style="transition-duration: 300ms;height: 1em; width: {{ level }}%"></div>
-              </div>
+          <div class="four wide column" style="min-width: 10em">
+            <div class="ui blue progress no-bottom" style="min-width: 10em; max-width: 15em">
+              <div class="bar" style="transition-duration: 300ms;height: 1em; width: {{ entry.keywordslevel[forloop.index0] }}%"></div>
             </div>
-            {% endfor %}
           </div>
+          {% endfor %}
         </div>
     </div>
     {% endfor %}
