@@ -4,7 +4,7 @@
     <h3 class="ui left aligned header no-bottom">{{ site.skills }}</h3>
   </div>
 
-  <div class="fourteen wide column no-bottom">
+  <div class="twelve wide column no-bottom">
     <p class="ui no-bottom">
     {% for entry in site.data.bio.skills %}
     <div class="printable">
@@ -12,16 +12,16 @@
       {% if entry.keywordslabel and entry.keywordslabel.size > 0 %}{% for keyword in entry.keywordslabel %}{{ keyword }}{% if forloop.last != true %}, {% endif %}{% endfor %}{% endif %}{% if forloop.last != true %} {% endif %}
     </div>
     <div class="nonprintable">
-      <p class="ui row no-bottom">
+      <p class="ui no-bottom">
         <b>{{ entry.name }}:</b> <br>
-        <div class="ui grid stackable" style="padding: 1em">
+        <div class="ui grid stackable">
           {% for keyword in entry.keywordslabel %}
-          <div class="three wide column" style="min-width: 11em">
-            {{ entry.keywordslabel[forloop.index0] }} :
+          <div class="three wide column" style="min-width: 9.9em">
+            {{ entry.keywordslabel[forloop.index0] }}:
           </div>
-          <div class="four wide column" style="min-width: 10em">
-            <div class="ui blue progress no-bottom" style="min-width: 10em; max-width: 15em">
-              <div class="bar" style="transition-duration: 300ms;height: 1em; width: {{ entry.keywordslevel[forloop.index0] }}%"></div>
+          <div class="four wide column" style="min-width: 10em; padding-left: 0em">
+            <div class="ui blue progress no-bottom" style="min-width: 8em">
+              <div class="bar" style="transition-duration: 300ms;height: 1.5em; width: {{ entry.keywordslevel[forloop.index0] }}%"></div>
             </div>
           </div>
           {% endfor %}
