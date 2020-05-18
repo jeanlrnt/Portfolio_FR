@@ -1,12 +1,12 @@
 ---
 layout: project
 type: project
-link: /CasseBrique
-image: ../images/casse-brique/jeu.png
+link: /miniRPG
+image: ../images/miniRPG/jeu.png
 images:
-- ../images/casse-brique/jeu.png
-title: "Casse Brique"
-date: 2020-05-15
+- ../images/miniRPG/jeu.png
+title: "MiniRPG"
+date: 2020-05-18
 labels:
 - JavaScript
 summary: Projet réalisé pour le expérimenter le JavaScript.
@@ -15,17 +15,6 @@ summary: Projet réalisé pour le expérimenter le JavaScript.
 # Résumé
 
 Ce jeu a été réalisé dans le cadre personnel afin d'apprendre à utiliser le langage JavaScript.  
-Il a été réalisé grâce au tutoriel disponible [ici](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript)
+Il est disponible [ici](https://www.jeanlaurent.me/miniRPG/)
 
-<div class="invmobile">
-  <link rel="stylesheet" type="text/css" href="https://www.jeanlaurent.me/miniRPG/css/style.css" />
-  <!--[if lt IE 9]><script type="text/javascript" src="https://www.jeanlaurent.me/miniRPG/js/excanvas.compiled.js"></script><![endif]-->
-  <script type="text/javascript" src="https://www.jeanlaurent.me/miniRPG/js/json2.js"></script>
-  <script type="text/javascript" src="https://www.jeanlaurent.me/miniRPG/js/oXHR.js"></script>
-  <script type="text/javascript" src="https://www.jeanlaurent.me/miniRPG/js/classes/Tileset.js"></script>
-  <script type="text/javascript" src="https://www.jeanlaurent.me/miniRPG/js/classes/Map.js"></script>
-  <script type="text/javascript" src="https://www.jeanlaurent.me/miniRPG/js/classes/Personnage.js"></script>
-  <script type="text/javascript" src="https://www.jeanlaurent.me/miniRPG/js/rpg.js"></script>
-
-	<canvas id="canvas"></canvas>
-</div>
+Il a été réalisé grâce au tutoriel disponible [ici](http://sdz.tdct.org/sdz/creer-un-mini-rpg-en-javascript-avec-canvas.html)
