@@ -28,6 +28,4 @@ Il a été réalisé grâce au tutoriel disponible [ici](https://developer.mozil
   <script type="text/javascript" src="https://www.jeanlaurent.me/miniRPG/js/rpg.js"></script>
 
 	<canvas id="canvas"></canvas>
-
-  <script type="text/javascript" src="{{ site.url }}/js/casse-brique.js"></script>
 </div>
