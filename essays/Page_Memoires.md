@@ -1,6 +1,7 @@
 ---
 layout: essay
 type: essay
+link: /Page_Memoires
 image: ../images/essays/Page-memoires.png
 title: "IUT Mémories"
 date: 2020-05-15
