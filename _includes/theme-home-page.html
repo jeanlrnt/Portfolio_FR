@@ -24,7 +24,7 @@
     </p>
     <p style="text-align: center">
       {% for profile in site.data.bio.basics.profiles %}
-         <a href="{{ profile.url }}"> <i class="big {{ profile.network | downcase }} icon icon-color"></i> </a>
+         <a href="{{ profile.url }}"> <i class="big {{ profile.network | downcase }} icon icon-color" alt="{{ profile.network | downcase }}"></i> </a>
       {% endfor %}
 
       {% if site.data.bio.basics.email %}
