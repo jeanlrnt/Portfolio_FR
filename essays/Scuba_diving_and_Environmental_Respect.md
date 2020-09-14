@@ -14,4 +14,6 @@ labels:
   <iframe src="../images/essays/Scubadiving.pdf" width="100%" height="800">
 </div>
 
-<a href="./res/pdf/pdf.pdf" title="Pdf">Download the catalog here (.pdf)</a>
+<div style="margin: 0 auto; margin-top: 1em; margin-bottom: 1em">
+  <div class="ui button" style="margin-top: 1em">Jouer</div>
+</div>
