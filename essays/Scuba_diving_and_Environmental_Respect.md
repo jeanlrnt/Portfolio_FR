@@ -12,20 +12,6 @@ labels:
 
 <div class="invmobile">
   <iframe src="../images/essays/Scubadiving.pdf" width="100%" height="800">
-  <div class="ui grid">
-    <div style="margin: 0 auto; margin-top: 1em; margin-bottom: 1em">
-      <div class="ui button" style="margin-top: 1em">
-        <a href="../images/essays/Scubadiving.pdf">Télécharger</a>
-      </div>
-    </div>
-  </div>
 </div>
 
-
-<div class="ui grid">
-  <div style="margin: 0 auto; margin-top: 1em; margin-bottom: 1em">
-    <div class="ui button" style="margin-top: 1em">
-      <a href="../images/essays/Scubadiving.pdf">Télécharger</a>
-    </div>
-  </div>
-</div>
+<a href="./res/pdf/pdf.pdf" title="Pdf">Download the catalog here (.pdf)</a>
