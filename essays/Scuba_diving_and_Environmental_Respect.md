@@ -14,7 +14,7 @@ Rapport sur la plongée sous-marine et le respect de l'environnement réalisé d
 
 <div class="ui grid">
   <div style="margin: 1em auto; padding: 1em 0">
-    <a class="ui button" href="../images/essays/Scubadiving.pdf">
+    <a class="ui button" href="../images/essays/Scubadiving.pdf" target="_blank">
     Ouvrir le fichier</a>
   </div>
 </div>
