@@ -14,6 +14,4 @@ labels:
   <iframe src="../images/essays/Scubadiving.pdf" width="100%" height="800">
 </div>
 
-<div style="margin: 0 auto; margin-top: 1em; margin-bottom: 1em">
-  <div class="ui button" style="margin-top: 1em">Jouer</div>
-</div>
+[Accessible ici](../images/essays/Scubadiving.pdf)
