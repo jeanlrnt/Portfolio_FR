@@ -41,6 +41,10 @@ canvas {
   border: solid #0A6FD1;
 }
 
+.invdesktop {
+  display: none;
+}
+
 @media only screen and (max-width:767px) {
   .invmobile {
     display: none;
