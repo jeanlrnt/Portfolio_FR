@@ -12,8 +12,8 @@ labels:
 
 <div class="ui grid">
   <div style="margin: 0 auto; margin-top: 1em; margin-bottom: 1em">
-    <div class="ui button" style="margin-top: 1em">
-      <a href="../images/essays/Scubadiving.pdf">Ouvrir le fichier</a></div>
+      <a class="ui primary button" href="../images/essays/Scubadiving.pdf">
+      Ouvrir le fichier</a>
   </div>
 </div>
 
