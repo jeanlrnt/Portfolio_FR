@@ -4,7 +4,7 @@ type: essay
 link: /Scuba_diving_and_Environmental_Respect
 image: ../images/essays/Scubadiving.png
 title: "Scuba diving and Environmental respect"
-date: 2020-09-14
+date: 2020-02-13
 labels:
   - Scuba diving
   - Environmental respect
