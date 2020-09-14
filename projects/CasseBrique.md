@@ -22,7 +22,7 @@ Il a été réalisé grâce au tutoriel disponible [ici](https://developer.mozil
 
   <div class="ui grid">
     <div style="margin: 0 auto; margin-top: 1em; margin-bottom: 1em">
-      <div class="ui button" onclick="draw()" style="margin-top: 1em">Play</div>
+      <div class="ui button" onclick="draw()" style="margin-top: 1em">Jouer</div>
     </div>
   </div>
 
