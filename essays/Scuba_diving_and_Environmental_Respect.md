@@ -10,10 +10,10 @@ labels:
   - Environmental respect
 ---
 
-<div class="ui grid">
-  <div style="margin: 0 auto; margin-top: 1em; margin-bottom: 1em">
-      <a class="ui primary button" href="../images/essays/Scubadiving.pdf">
-      Ouvrir le fichier</a>
+<div class="ui grid invdesktop">
+  <div style="margin: 1em auto">
+    <a class="ui button" href="../images/essays/Scubadiving.pdf">
+    Ouvrir le fichier</a>
   </div>
 </div>
 
@@ -21,5 +21,3 @@ labels:
 <div class="invmobile">
   <iframe src="../images/essays/Scubadiving.pdf" width="100%" height="800">
 </div>
-
-[Accessible ici]()
