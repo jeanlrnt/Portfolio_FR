@@ -10,7 +10,7 @@ labels:
   - Environmental respect
 ---
 
-Rapport sur la pongee sous-marine et le respect de l'environnement réalisé dans le cadre du module M2206.
+Rapport sur la plongée sous-marine et le respect de l'environnement réalisé dans le cadre du module M2206.
 
 <div class="ui grid">
   <div style="margin: 1em auto; padding: 1em 0">
