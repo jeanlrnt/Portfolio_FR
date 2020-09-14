@@ -9,5 +9,5 @@ labels:
   - Scuba diving
   - Environmental respect
 ---
-## ss  
-<iframe src="../images/essays/Scubadiving.pdf" width=100% height=800>
+
+<iframe src="../images/essays/Scubadiving.pdf" width="100%" height="800">
