@@ -10,4 +10,4 @@ labels:
   - Environmental respect
 ---
 
-<iframe src="../images/essays/Scubadiving.pdf" width=800 height=500>
+<iframe src="../images/essays/Scubadiving.pdf" width=700 height=1000>
