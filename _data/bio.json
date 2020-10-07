@@ -6,7 +6,7 @@
     "email": "jean.laurent@etu.unilim.fr",
     "phone": "+33(0)7.85.59.66.96",
     "website": "https://jeanlrnt.github.io/Portfolio_FR",
-    "summary": "Je suis actuellement en seconde année du DUT Informatique (Diplôme Universitaire de Technologie) de l'IUT du Limousin (Institut Universitaire de Technologie). Je compte obtenir mon diplôme en 2021.",
+    "summary": "Je suis actuellement en seconde année du DUT Informatique (Diplôme Universitaire de Technologie) de l'IUT(Institut Universitaire de Technologie) du Limousin à Limoges. Je suis interessé par les technologies du web et je souhaiterais devenir développeur web après mes études en 2021.",
     "location": {
       "address": "",
       "postalCode": "87000",
@@ -78,19 +78,16 @@
     {
       "name": "Langages et Frameworks",
       "keywordslabel": [
-        "Bash",
         "HTML5",
         "CSS3",
         "Java",
         "C++",
-        "Git",
+        "GitHub",
+        "Angular 9",
         "JavaFX",
-        "C",
-        "SQL",
-        "Rust"
+        "SQL"
       ],
       "keywordslevel": [
-        "80",
         "75",
         "70",
         "70",
@@ -98,20 +95,17 @@
         "70",
         "60",
         "60",
-        "55",
-        "40"
+        "55"
       ]
     },
     {
       "name": "Outils/OS",
       "keywordslabel": [
         "Microsoft Office",
-        "Linux Manjaro",
-        "Git/GitHub"
+        "GitLab/GitHub"
       ],
       "keywordslevel": [
         "85",
-        "75",
         "70"
       ]
     },
@@ -124,7 +118,7 @@
         "Espagnol"
       ],
       "keywordslevel": [
-        "100",
+        "95",
         "85",
         "80",
         "65"
@@ -139,7 +133,11 @@
       "startDate": "2019-09-01",
       "endDate": "Present",
       "gpa": "",
-      "courses": []
+      "courses": [
+        "Front end : HTML",
+        "Back end : PHP",
+        "Software : C++/C, Java"
+      ]
     },
     {
       "institution": "Faculté de médecine et de pharmacie, 87000 Limoges, France",
