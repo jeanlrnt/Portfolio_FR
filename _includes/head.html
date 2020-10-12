@@ -3,16 +3,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   {% if page.title === 'Accueil' %}
     {% include meta-Accueil.html %}
-  {% else %}
-    {% if page.title === 'Projets' %}
-      {% include meta-Projets.html %}
-    {% else %}
-      {% if page.title === 'Publications' %}
-        {% include meta-Publications.html %}
-      {% else %}
-        {% include meta-CV.html %}
-      {% endif %}
-    {% endif %}
+  {% endif %}
+  {% if page.title === 'Projets' %}
+    {% include meta-Projets.html %}
+  {% endif %}
+  {% if page.title === 'Publications' %}
+    {% include meta-Publications.html %}
+  {% endif %}
+  {% if page.title === 'CV' %}
+    {% include meta-CV.html %}
   {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="mobile-web-app-capable" content="yes">
