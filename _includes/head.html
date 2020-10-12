@@ -1,7 +1,19 @@
 <head>
   <meta charset="utf-8" lang="fr">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Portfolio professionnel de Jean Laurent, étudiant en DUT Informatique à Limoges, France. Ce portfolio présente mes différents projets ainsi que mon CV.">
+  {% if page.title === 'Accueil' %}
+    {% include meta-Accueil.html %}
+  {% else %}
+    {% if page.title === 'Projets' %}
+      {% include meta-Projets.html %}
+    {% else %}
+      {% if page.title === 'Publications' %}
+        {% include meta-Publications.html %}
+      {% else %}
+        {% include meta-CV.html %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="mobile-web-app-capable" content="yes">
   <link rel="alternate" href="https://jeanlrnt.github.io/Portfolio_FR" hreflang="fr-fr">
