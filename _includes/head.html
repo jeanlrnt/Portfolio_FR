@@ -1,16 +1,16 @@
 <head>
   <meta charset="utf-8" lang="fr">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  {% if page.title = site.home-page-label %}
+  {% if page.layout = site.home-page-label %}
     {% include meta-Accueil.html %}
   {% endif %}
-  {% if page.title = site.projects-page-label %}
+  {% if page.layout = site.projects-page-label %}
     {% include meta-Projets.html %}
   {% endif %}
-  {% if page.title = site.essays-page-label %}
+  {% if page.layout = site.essays-page-label %}
     {% include meta-Publications.html %}
   {% endif %}
-  {% if page.title = site.bio-page-label %}
+  {% if page.layout = site.bio-page-label %}
     {% include meta-CV.html %}
   {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
