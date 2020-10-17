@@ -10,16 +10,16 @@
       <div class="nonprintable">
         <div class="fields">
           <div class="six wide field">
-            <label>Nom</label>
+            <label for="edName">Nom</label>
             <input placeholder="Votre Nom" type="text" id="edName">
           </div>
           <div class="ten wide field">
-            <label>Sujet</label>
+            <label for="edSubject">Sujet</label>
             <input placeholder="Sujet du Message" type="text" id="edSubject">
           </div>
         </div>
         <div class="field">
-          <label>Text</label>
+          <label for="edBody">Text</label>
           <textarea id="edBody" placeholder="Ecrivez votre message ici"></textarea>
         </div>
         <div class="row" style="text-align: center">
@@ -33,23 +33,22 @@
 <script>
     function sendMail() {
         <!--Tester les donnees-->
-        if (document.getElementById("edName").value.length==0) {
+        if (document.getElementById("edName").value.length===0) {
             alert("Merci d'entrer votre Nom");
             return;
         }
-        if (document.getElementById("edSubject").value.length==0) {
+        if (document.getElementById("edSubject").value.length===0) {
             alert("Merci d'entrer un Sujet");
             return;
         }
-        if (document.getElementById("edBody").value.length==0) {
+        if (document.getElementById("edBody").value.length===0) {
             alert("Merci de renseigner un Message");
             return;
         }
         <!--Encoder l'url mailto-->
-        var url="mailto:"+encodeURIComponent("{{ site.data.bio.basics.email }}")
-            +"?subject="+encodeURIComponent(document.getElementById("edSubject").value + " || envoyé par " + document.getElementById("edName").value)
-            +"&body="+encodeURIComponent(document.getElementById("edBody").value);
         <!--Ouvrir client messagerie-->
-        document.location=url;
+        document.location="mailto:" + encodeURIComponent("{{ site.data.bio.basics.email }}")
+                + "?subject=" + encodeURIComponent(document.getElementById("edSubject").value + " || envoyé par " + document.getElementById("edName").value)
+                + "&body=" + encodeURIComponent(document.getElementById("edBody").value);
     }
 </script>

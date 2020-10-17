@@ -22,15 +22,6 @@
         {{ interest.name }}{% if forloop.last != true %}, {% endif %}
       {% endfor %}
     </p>
-    <p style="text-align: center">
-      {% for profile in site.data.bio.basics.profiles %}
-         <a href="{{ profile.url }}"> <i class="big {{ profile.network | downcase }} icon icon-color" alt="{{ profile.network | downcase }}"></i> </a>
-      {% endfor %}
-
-      {% if site.data.bio.basics.email %}
-        <a href="mailto:{{ site.data.bio.basics.email }}"> <i class="big mail square icon icon-color"></i> </a>
-      {% endif %}
-    </p>
     <div class="centered">
       <div class="ui stackable four item menu">
         {% if num_projects > 0 %}<a href="{{ site.baseurl}}/projects/" class="item">
