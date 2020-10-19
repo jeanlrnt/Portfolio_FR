@@ -2,8 +2,8 @@
 
 title: Jean Laurent | Portfolio
 url: "https://jeanlaurent.fr"
-icon: "images/jeanlaurent.png"
-baseurl: ""
+icon: "favicon.ico"
+baseurl: "jeanlaurent.fr"
 bio-page-label: CV
 projects-page-label: Projets
 essays-page-label: Publications
