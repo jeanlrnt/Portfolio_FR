@@ -24,13 +24,13 @@
     </p>
     <div class="centered">
       <div class="ui stackable four item menu">
-        {% if num_projects > 0 %}<a href="{{ site.url }}/projects/" class="item">
+        {% if num_projects > 0 %}<a href="{{ site.baseurl }}/projects/" class="item">
           {{ site.projects-page-label }} ({{ num_projects }})
         </a>{% endif %}
-        {% if num_essays > 0 %}<a href="{{ site.url }}/essays/" class="item">
+        {% if num_essays > 0 %}<a href="{{ site.baseurl }}/essays/" class="item">
           {{ site.essays-page-label }} ({{ num_essays }})
         </a>{% endif %}
-        <a class="item" href="{{ site.url }}/bio/">{{ site.bio-page-label }}</a>
+        <a class="item" href="{{ site.baseurl }}/bio/">{{ site.bio-page-label }}</a>
         <a class="item" href="https://jeanlrnt.github.io/{{ page_name }}"><i class="flag gb"></i>Anglais</a>
       </div>
     </div>

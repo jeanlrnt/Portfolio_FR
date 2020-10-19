@@ -1,7 +1,7 @@
-<a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.url}}{{ include.page.url }}{% endif %}">
+<a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
   {% if include.page.image %}
   <div class="image">
-    <img src="{{ site.url }}/{{ include.page.image }}" alt="{{ include.page.image }}">
+    <img src="{{ site.baseurl }}/{{ include.page.image }}" alt="{{ include.page.image }}">
   </div>
   {% endif %}
   <div class="content">
