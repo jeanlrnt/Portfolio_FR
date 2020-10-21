@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-link: /CasseBrique
+link: /CasseBrique.html
 image: ../images/casse-brique/jeu.png
 images:
 - ../images/casse-brique/jeu.png

@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-link: /Bibliotheque
+link: /Bibliotheque.html
 image: ../images/bibliotheque/menu.png
 images:
   - ../images/bibliotheque/menu.png

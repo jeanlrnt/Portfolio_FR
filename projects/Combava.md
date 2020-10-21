@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-link: /Combava
+link: /Combava.html
 image: ../images/combava/index.png
 images:
   - ../images/combava/index.png
