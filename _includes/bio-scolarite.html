@@ -12,7 +12,7 @@
         <p class="ui no-bottom"><b>{{ entry.institution }}</b></p>
         <p class="ui no-bottom">{{ entry.studyType }}, {{ entry.area }}</p>
         {% if entry.courses %}
-        <ul style="margin: 0px;">
+        <ul class="inline0em">
           {% for course in entry.courses %}
           <li>{{ course }}</li>
           {% endfor %}

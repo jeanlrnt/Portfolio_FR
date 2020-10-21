@@ -13,15 +13,18 @@
     </div>
     <div class="nonprintable">
       <p class="ui no-bottom">
-        <b>{{ entry.name }}:</b> <br>
-        <div class="ui grid stackable" style="margin-top: 1em; margin-bottom: 1em">
+      <div class="inline1em">
+        <b>{{ entry.name }}:</b>
+      </div>
+        <br>
+        <div class="ui grid stackable">
           {% for keyword in entry.keywordslabel %}
           <div class="three wide column" style="min-width: 9.9em">
             {{ entry.keywordslabel[forloop.index0] }}:
           </div>
           <div class="four wide column" style="min-width: 10em; padding-left: 0em">
             <div class="ui blue progress no-bottom" style="min-width: 8em">
-              <div class="bar" style="transition-duration: 300ms;height: 1.5em; width: {{ entry.keywordslevel[forloop.index0] }}%"></div>
+              <div class="bar" style="height: 1.5em; width: {{ entry.keywordslevel[forloop.index0] }}%"></div>
             </div>
           </div>
           {% endfor %}

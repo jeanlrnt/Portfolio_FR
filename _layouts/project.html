@@ -2,19 +2,30 @@
 layout: Projets
 ---
 
-<style media="screen">
-  body {
-    height: auto;
-  }
-</style>
+<div class="ui text container top-page">
+ <h1 class="center">{{ page.title }}</h1>
 
-<div style="padding-top: 1em" class="ui text container">
- <h1>{{ page.title }}</h1>
- <div class="ui small rounded images row">
- {% for image in page.images %}
-    <img class="ui image" src="{{ image }}" alt="{{ image }}">
- {% endfor %}
+ <div class="slideshow-container">
+  {% for image in page.images %}
+  <div class="mySlides fade">
+   <img class="ui image" src="{{ image }}" alt="{{ image }}" style="width: 75%">
+  </div>
+  {% endfor %}
+  {% assign nombre_images = page.images.size %}
+  {% if nombre_images > 1 %}
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  {% endif %}
  </div>
+ <br>
+
+ <div class="center">
+  {% for numImage in (1..nombre_images) %}
+   <span class="dot"></span>
+  {% endfor %}
+ </div>
+ <script type="text/javascript" src="{{ site.url }}/js/slides.js"></script>
+
  {{ content }}
 
  {% include footer.html %}

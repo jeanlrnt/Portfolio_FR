@@ -1,5 +1,5 @@
 <div class="row">
-  <div style="text-align: center" class="three wide column">
+  <div class="three wide column center">
     {% if include.page.image %}
     <img class="ui middle aligned medium circular image" src="{{ site.baseurl }}/{{ include.page.image }}" alt="{{ include.page.image }}">
     {% endif %}
@@ -10,7 +10,7 @@
     <p class="">{{ include.page.date }}</p>
     <p>{{ include.page.summary }}</p>
 
-    <div style="text-align: center" class="ui mini labels">
+    <div class="ui mini labels center">
       {% for label in include.page.labels %}
         <div class="ui basic label">
           <p>{{ label }}</p>
@@ -18,13 +18,12 @@
       {% endfor %}
     </div>
 
-    <div style="text-align: center">
+    <div class="center">
       {% if page.projecturl %}
         <a class="ui basic button" href="{{ page.projecturl }}">{{ site.more }}</a>
       {% else %}
         <a class="ui basic button" href="{{ site.baseurl}}{{ include.page.url }}">{{ site.more }}</a>
       {% endif %}
     </div>
-    <hr style="margin-top: 20px">
   </div>
 </div>
