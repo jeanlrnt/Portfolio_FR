@@ -2,10 +2,10 @@
   "basics": {
     "name": "Jean Laurent",
     "label": "Etudiant",
-    "picture": "https://jeanlaurent.fr/images/jeanlaurent.png",
+    "picture": "http://v1.jeanlaurent.fr/images/jeanlaurent.png",
     "email": "contact@jeanlaurent.fr",
     "phone": "+33(0)7.85.59.66.96",
-    "website": "https://jeanlaurent.fr",
+    "website": "http://v1.jeanlaurent.fr",
     "summary": "Je suis actuellement en seconde année du DUT Informatique (Diplôme Universitaire de Technologie) de l'IUT (Institut Universitaire de Technologie) du Limousin à Limoges. Je suis interessé par les technologies du web et je souhaiterais devenir développeur web après mes études.",
     "location": {
       "address": "",
