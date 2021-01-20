@@ -24,7 +24,7 @@
       {% endfor %}
     </p>
     <div class="centered">
-      <div class="ui stackable four item menu">
+      <div class="ui stackable three item menu">
         {% if num_projects > 0 %}<a href="{{ site.baseurl }}/projects/" class="item">
           {{ site.projects-page-label }} ({{ num_projects }})
         </a>{% endif %}
@@ -32,7 +32,6 @@
           {{ site.essays-page-label }} ({{ num_essays }})
         </a>{% endif %}
         <a class="item" href="{{ site.baseurl }}/bio/">{{ site.bio-page-label }}</a>
-        <a class="item" href="https://www.jeanlaurent.me"><i class="flag gb"></i>Anglais</a>
       </div>
     </div>
   </div>
