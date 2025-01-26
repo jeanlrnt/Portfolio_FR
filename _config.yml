@@ -1,8 +1,8 @@
 # Site settings
 
 title: Jean Laurent | Portfolio
-url: "http://www.v1.jeanlaurent.fr"
-baseurl: ""
+url: "https://github.jeanlaurent.fr/Portfolio_FR/"
+baseurl: "/Portfolio_FR/"
 icon: "favicon.ico"
 bio-page-label: CV
 projects-page-label: Projets
