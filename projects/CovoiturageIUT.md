@@ -26,6 +26,4 @@ Le projet consiste à réaliser un site de covoiturage en local dans lequel un u
 
 Pour ce projet, on utilise une base de donnés MySQL. Les mots de passe en base de donnée sont cryptés. Le fichier config.inc.php contient les paramètres pour la base MySQL.
 
-Une version de ce site de covoiturage est disponible à l'adresse [covoiturageiut.jeanlaurent.fr](http://covoiturageiut.jeanlaurent.fr)
-
 Vous pouvez en apprendre plus sur mon [dépôt GitHub](http://GitHub.com/jeanlrnt/Covoiturage_IUT).

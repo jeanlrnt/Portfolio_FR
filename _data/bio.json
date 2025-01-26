@@ -2,11 +2,11 @@
   "basics": {
     "name": "Jean Laurent",
     "label": "Etudiant",
-    "picture": "http://v1.jeanlaurent.fr/images/jeanlaurent.png",
-    "email": "contact@jeanlaurent.fr",
+    "picture": "https://github.jeanlaurent.fr/Portfolio_FR/images/jeanlaurent.png",
+    "email": "jeanz.laurent@gmail.com",
     "phone": "+33(0)7.85.59.66.96",
-    "website": "https://v1.jeanlaurent.fr",
-    "websiteglobal": "https://jeanlaurent.fr",
+    "website": "https://github.jeanlaurent.fr/Portfolio_FR",
+    "websiteglobal": "https://github.jeanlaurent.fr/",
     "summary": "Je suis actuellement en seconde année du DUT Informatique (Diplôme Universitaire de Technologie) de l'IUT (Institut Universitaire de Technologie) du Limousin à Limoges. Je suis interessé par les technologies du web et je souhaiterais devenir développeur web après mes études.",
     "location": {
       "address": "",
@@ -25,11 +25,6 @@
         "network": "linkedin",
         "username": "jeanlrnt",
         "url": "https://linkedin.com/in/jeanlrnt"
-      },
-      {
-        "network": "twitter",
-        "username": "jean_lrnt",
-        "url": "https://twitter.com/jean_lrnt"
       },
       {
         "network": "instagram",

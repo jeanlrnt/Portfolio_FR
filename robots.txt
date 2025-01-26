@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Allow: /sitemap.htm
-Sitemap: http://v1.jeanlaurent.fr/sitemap.xml
+Sitemap: https://github.jeanlaurent.fr/Portfolio_FR/sitemap.xml

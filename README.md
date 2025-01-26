@@ -1,6 +1,6 @@
 # Site portfolio - version 1
 
-Portfolio professionnel disponible à l'adresse [www.v1.jeanlaurent.fr](http://v1.jeanlaurent.fr).
+Portfolio professionnel disponible à l'adresse [github.jeanlaurent.fr/Portfolio_FR](https://github.jeanlaurent.fr/Portfolio_FR).
 
 ------
 

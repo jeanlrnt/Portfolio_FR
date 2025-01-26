@@ -22,7 +22,7 @@ summary: Projet réalisé personnellement afin d'expérimenter des outils web. C
 
 Ce projet consiste à réaliser une vitrine personnelle en ligne.
 
-Ce projet de site internet met à disposition sur le site [v1.jeanlaurent.fr](http://v1.jeanlaurent.fr) la majorité des projets 
+Ce projet de site internet met à disposition sur le site [github.jeanlaurent.fr/Portfolio_FR](https://github.jeanlaurent.fr/Portfolio_FR) la majorité des projets 
 que j'ai réalisés personnellement mais aussi dans le cadre de mon DUT informatique. Un changement de langue est aussi
 disponible. Ce changement est pour l'instant réalisé en changeant de site, mais à termes, il sera disponible directement
 sur le même site.
